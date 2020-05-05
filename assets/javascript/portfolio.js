@@ -164,7 +164,7 @@
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #F62459'>KortexHook $$$ click here! </i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #F62459'>KortexHook $$$</i>"], 120, 500, function () {
 
                         timeouts.push(setTimeout(function () {
 
