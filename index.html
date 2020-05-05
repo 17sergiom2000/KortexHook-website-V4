@@ -69,6 +69,15 @@
                 app.videoElement.volume = 0;
             </script>
         </video>
+		
+	<script>
+    document.getElementById("background").src = Math.floor((Math.random()*4)+1) + ".mp4";
+	</script>
+ 
+	<script>
+    document.getElementById("audio").src = document.getElementById("background").src;
+	</script>
+		
     </div>
 
     <div class="top-right">
@@ -76,7 +85,24 @@
     </div>
 
     <div class="footer">
-        <i>Juice WRLD - Robbery ♫</a></i>
+        <i>$$$/a></i>
+		
+		<script type= "text/javascript">
+	 var ficheiro = document.getElementById("background").src.slice(-5);
+	 var file1 = "1.mp4";
+	 var file2 = "2.mp4";
+	 var file3 = "3.mp4";
+	 if (ficheiro == file1) {
+	 document.getElementById("musicname").innerHTML = "Juice WRLD - Robbery ♫";
+	} else if(ficheiro == file2) {	
+	  document.getElementById("musicname").innerHTML = "Arizona Zervas - ROXANNE ♫";
+	} else if(ficheiro == file3) {	
+	  document.getElementById("musicname").innerHTML = "Sippinpurpp - Sauce ♫";
+	} else{
+	 document.getElementById("musicname").innerHTML = "MAMAMOO - HIP ♫";
+	}
+	</script
+		
     </div>
     
     <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
