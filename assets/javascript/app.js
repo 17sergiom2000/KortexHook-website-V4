@@ -55,7 +55,7 @@ var _app = function () {
 	     
 	 	     
 	    ];
-        delay = delay || 2000;
+        delay = delay || 1500;
 
         var counter = 0;
 
