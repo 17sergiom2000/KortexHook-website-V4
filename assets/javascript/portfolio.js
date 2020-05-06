@@ -26,7 +26,12 @@
             {
                 name: 'Youtube',
                 link: 'https://www.youtube.com/channel/UCNUCoeO9mQ6yob-eHdjv-MA'
+            },
+            {
+                name: 'Premium User',
+                link: 'http://steamcommunity.com/id/PutaTrafulha/'
             }
+            
         ];
       
         for (var i in links) {
