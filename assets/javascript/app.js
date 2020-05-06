@@ -22,7 +22,36 @@ var _app = function () {
 
     this.titleChanger = function (text, delay) {
         text = text ||
-            ['Kortex', 'KortexHook', 'KortexH00k', 'K0rt3xH00k', 'K0rt3xHook', ' K0rt3xHook★', '★K0rt3xHook', '★KortexHook★'];
+            ['                  ', 
+	     '                 g', 
+	     '                ga', 
+	     '               gam',
+	     '              game',
+	     '             games',
+	     '            gamese',
+	     '           gamesen',
+	     '         gamesense',
+	     '        gamesense ',
+	     '       gamesense  ',
+	     '      gamesense   ',
+	     '     gamesense    ',
+	     '    gamesense     ',
+	     '   gamesense      ',
+	     '  gamesense       ',
+	     ' gamesense        ',
+	     'gamesense         ',
+	     'amesense          ',
+	     'mesense           ',
+	     'esense            ',
+	     'sense             ',
+	     'sens              ',
+	     'sen               ',
+	     'se                ',
+	     's                 ',
+	     
+	     
+	 	     
+	    ];
         delay = delay || 2000;
 
         var counter = 0;
