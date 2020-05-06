@@ -14,8 +14,9 @@ var _app = function () {
         "hitting p", 
         "premiun gaming chair", 
         "spaghetti sauce", 
-        "hvh", 
-        "owning newcomers"
+        "hvh",
+	"vac  = valve allows cheats",
+        "owning newcomers since 2014"
 		
     ];
 
