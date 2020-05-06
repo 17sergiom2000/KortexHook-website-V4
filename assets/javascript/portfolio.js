@@ -30,6 +30,10 @@
             {
                 name: 'Premium User',
                 link: 'http://steamcommunity.com/id/PutaTrafulha/'
+            },
+            {
+                name: 'hol1337crap',
+                link: 'https://steamcommunity.com/id/hol1337crap'
             }
             
         ];
