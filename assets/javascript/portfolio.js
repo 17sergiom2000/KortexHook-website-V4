@@ -28,7 +28,7 @@
                 link: 'https://www.youtube.com/channel/UCNUCoeO9mQ6yob-eHdjv-MA'
             },
             {
-                name: 'Premium User',
+                name: '.noclip',
                 link: 'http://steamcommunity.com/id/PutaTrafulha/'
             },
             {
