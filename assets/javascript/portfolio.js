@@ -50,7 +50,7 @@
         }
 
         if (window.mobileAndTabletCheck()) {
-            $("#background").replaceWith('<div id="background" style="background-image: url(https://a.wattpad.com/cover/177026016-352-k865150.jpg);"></div>');
+            $("#background").replaceWith('<div id="background" style="background-image: url(https://wallpaperaccess.com/full/2472624.jpg);"></div>');
 
             app.shouldIgnoreVideo = true;
         } 
