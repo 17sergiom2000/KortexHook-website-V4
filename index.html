@@ -71,7 +71,7 @@
         </video>
 		
 	<script>
-    document.getElementById("background").src = Math.floor((Math.random()*5)+1) + ".mp4";
+    document.getElementById("background").src = Math.floor((Math.random()*6)+1) + ".mp4";
 	</script>
  
 	<script>
@@ -93,6 +93,7 @@
 	 var file2 = "2.mp4";
 	 var file3 = "3.mp4";
 	 var file4 = "4.mp4";
+	 var file5 = "5.mp4";
 	 if (ficheiro == file1) {
 	 document.getElementById("musicname").innerHTML = "Juice WRLD - Robbery ♫";
 	} else if(ficheiro == file2) {	
@@ -102,8 +103,10 @@
 	} else if(ficheiro == file4){
 	 document.getElementById("musicname").innerHTML = "MAMAMOO - HIP ♫";
 	}
-	else {
+	else if(ficheiro == file5){
 	 document.getElementById("musicname").innerHTML = "Post Malone, Swae Lee - Sunflower ♫";
+	}else{
+	 document.getElementById("musicname").innerHTML = "Lil Peep - Save That Shit ♫";
 	}
 	
 	</script>
