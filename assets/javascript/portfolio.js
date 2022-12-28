@@ -154,7 +154,7 @@
     };
 
     (function () {
-        $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=1785ed53312f42c7b5ef89f65c3faa1a', function (data) {
+        $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=8230441faec7480f8a07fa0ec4426d31', function (data) {
 
             writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[unknown]</span>..."], 30, function () {
 
